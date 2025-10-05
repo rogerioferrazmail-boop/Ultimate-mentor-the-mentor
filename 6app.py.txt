@@ -1,0 +1,2 @@
+sessoes_df['num_participants'] = sessoes_df['inscritos'].apply(len)
+display(sessoes_df[['sessao_id', 'mentor', 'num_participants']])
